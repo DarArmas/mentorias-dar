@@ -1,0 +1,31 @@
+//string
+let cadena: string = "Esto es un string";
+
+//number
+let numero: number = 12;
+
+
+//Boleano
+let verdadero_falso: boolean =  true;
+
+//Any (cualquier valor)
+let cualquiera: any = "hola";
+
+var lenguajes: Array<string> = ["JAVA", "JS", "C#"];
+//estas dos formas funcionan igual
+let years: number[] = [12,43,12];
+
+
+//Multiples tipos de datos
+let ciudad: string | number = "Mexico city";
+ciudad = 43;
+
+
+//Tipos de datos personalizados
+type alfanumerico = string | number;
+
+let usuario: alfanumerico = 87;
+usuario = "Darnell";
+
+
+console.log(cadena,numero, verdadero_falso, cualquiera, lenguajes, years, ciudad, usuario);
